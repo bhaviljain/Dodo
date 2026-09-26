@@ -1,7 +1,7 @@
+import { CHECKOUT_ORIGIN } from "./config.js";
 let currentCheckout = null;
 let iframe = null;
 let overlay = null;
-const CHECKOUT_ORIGIN = "http://localhost:3001";
 const handleMessage = (event) => {
     if (event.origin !== CHECKOUT_ORIGIN)
         return;
