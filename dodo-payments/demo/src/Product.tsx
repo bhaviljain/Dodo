@@ -64,7 +64,7 @@ const Product = () => {
   };
 
   const deleteCart = (index:number) =>{
-    const delCart = cart.filter((c,i)=> i !==index )
+    const delCart = cart.filter((_,i)=> i !==index )
     setCart(delCart)
      showToast("success", "Item deleted successfully");
   }
