@@ -1,0 +1,1 @@
+export const CHECKOUT_ORIGIN = "http://localhost:3001";
