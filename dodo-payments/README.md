@@ -30,9 +30,12 @@ next Start the Demo application
 cd dodo-payments/demo
 npm install
 npm run dev
-
+The Demo application runs on http://localhost:3000
 
 #How piece talk to each other
 The demo website uses the SDK to open the checkout application which holds the payment ui and the flows
 
 The SDK and Checkout application communicate using the browsers postMessage API.
+
+
+Run the Demo application in a separate terminal. Do not run cd dodo-payments/demo after cd checkout, as checkout is not inside the dodo-payments directory.
